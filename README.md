@@ -130,8 +130,6 @@ $$
 
 <img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E4%B8%BB%E6%9C%BA1%E5%90%91%E4%B8%BB%E6%9C%BA2%E5%8F%91%E9%80%81%E6%95%B0%E6%8D%AE.png" alt="主机1向主机2发送数据" style="zoom:30%;" />
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\IP over Everything.png" alt="IP over Everything" style="zoom:30%;" />
-
 ## 第 2 章 物理层
 
 ### 2.1 物理层的基本概念
