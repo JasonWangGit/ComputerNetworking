@@ -128,7 +128,7 @@ $$
 - 数据链路层（Data Link）
 - 物理层（Physical）
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\主机1向主机2发送数据.png" alt="主机1向主机2发送数据" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E4%B8%BB%E6%9C%BA1%E5%90%91%E4%B8%BB%E6%9C%BA2%E5%8F%91%E9%80%81%E6%95%B0%E6%8D%AE.png" alt="主机1向主机2发送数据" style="zoom:30%;" />
 
 <img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\IP over Everything.png" alt="IP over Everything" style="zoom:30%;" />
 
@@ -147,7 +147,7 @@ $$
 
 #### 数据通信系统的模型
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\数据通信系统的模型.png" alt="数据通信系统的模型" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E6%95%B0%E6%8D%AE%E9%80%9A%E4%BF%A1%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A8%A1%E5%9E%8B.png" alt="数据通信系统的模型" style="zoom:30%;" />
 
 #### 术语
 
@@ -319,7 +319,7 @@ $$
 
 #### PPP 协议的帧格式
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\PPP协议的帧格式.png" alt="PPP协议的帧格式" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/PPP%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%B8%A7%E6%A0%BC%E5%BC%8F.png" alt="PPP协议的帧格式" style="zoom:30%;" />
 
 #### 透明传输问题
 
@@ -364,7 +364,7 @@ $$
 - 在计算机的操作系统安装设备驱动程序
 - 实现以太网协议
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\计算机通过适配器和局域网进行通信.png" alt="计算机通过适配器和局域网进行通信" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%80%9A%E8%BF%87%E9%80%82%E9%85%8D%E5%99%A8%E5%92%8C%E5%B1%80%E5%9F%9F%E7%BD%91%E8%BF%9B%E8%A1%8C%E9%80%9A%E4%BF%A1.png" alt="计算机通过适配器和局域网进行通信" style="zoom:30%;" />
 
 #### CSMA/CD 协议（总线网）
 
@@ -461,7 +461,7 @@ $$
   - （最常用）DIX Ethernet V2 标准
   - IEEE 的 802.3 标准
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\以太网的MAC帧格式.png" alt="以太网的MAC帧格式" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E4%BB%A5%E5%A4%AA%E7%BD%91%E7%9A%84MAC%E5%B8%A7%E6%A0%BC%E5%BC%8F.png" alt="以太网的MAC帧格式" style="zoom:30%;" />
 
 ##### 48 位的 MAC 地址
 
@@ -516,7 +516,7 @@ $$
       - 虚拟局域网 VLAN 是由一些局域网网段构成的与物理位置无关的逻辑组
       - 虚拟局域网其实只是局域网给用户提供的一种服务，而并不是一种新型局域网
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\虚拟局域网使用的以太网帧格式.png" alt="虚拟局域网使用的以太网帧格式" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E8%99%9A%E6%8B%9F%E5%B1%80%E5%9F%9F%E7%BD%91%E4%BD%BF%E7%94%A8%E7%9A%84%E4%BB%A5%E5%A4%AA%E7%BD%91%E5%B8%A7%E6%A0%BC%E5%BC%8F.png" alt="虚拟局域网使用的以太网帧格式" style="zoom:30%;" />
 
 #### 网桥和集线器（或转发器）不同
 
