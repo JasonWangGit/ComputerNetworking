@@ -1332,7 +1332,7 @@ $$
 
 ### 5.5 TCP 报文段的首部格式
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\TCP报文段的首部格式.png" alt="TCP报文段的首部格式" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/TCP%E6%8A%A5%E6%96%87%E6%AE%B5%E7%9A%84%E9%A6%96%E9%83%A8%E6%A0%BC%E5%BC%8F.png" alt="TCP报文段的首部格式" width="500" height="300" />
 
 - 源端口和目的端口字段——各占 2 字节
   - 端口是运输层与应用层的服务接口
@@ -1399,9 +1399,9 @@ $$
 
 #### 发送缓存与接收缓存的作用
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\发送缓存.png" alt="发送缓存" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E5%8F%91%E9%80%81%E7%BC%93%E5%AD%98.png" alt="发送缓存" width="500" height="300" />
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\接收缓存.png" alt="接收缓存" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E6%8E%A5%E6%94%B6%E7%BC%93%E5%AD%98.png" alt="接收缓存" width="500" height="300" />
 
 - 发送缓存用来暂时存放： 
   - 发送应用程序传送给发送方 TCP 准备发送的数据；
@@ -1501,7 +1501,7 @@ $$
 - 流量控制(flow control)就是让发送方的发送速率不要太快，既要让接收方来得及接收，也不要使网络发生拥塞
 - 利用滑动窗口机制可以很方便地在 TCP 连接上实现流量控制
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\流量控制举例.png" alt="流量控制举例" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6%E4%B8%BE%E4%BE%8B.png" alt="流量控制举例" width="500" height="300" />
 
 #### 持续计时器 (persistence timer)
 
@@ -1583,7 +1583,7 @@ $$
 
 ##### 慢开始和拥塞避免算法的实现举例
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\慢开始和拥塞避免算法的实现举例.png" alt="慢开始和拥塞避免算法的实现举例" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E6%85%A2%E5%BC%80%E5%A7%8B%E5%92%8C%E6%8B%A5%E5%A1%9E%E9%81%BF%E5%85%8D%E7%AE%97%E6%B3%95%E7%9A%84%E5%AE%9E%E7%8E%B0%E4%B8%BE%E4%BE%8B.png" alt="慢开始和拥塞避免算法的实现举例" width="500" height="300" />
 
 - 当 TCP 连接进行初始化时，将拥塞窗口置为 1
   - 图中的窗口单位不使用字节而使用报文段
@@ -1629,7 +1629,7 @@ $$
   - 但接下去不执行慢开始算法
 - 由于发送方现在认为网络很可能没有发生拥塞， 因此现在不执行慢开始算法，即拥塞窗口 cwnd 现在不设置为 1，而是设置为慢开始门 限 ssthresh 减半后的数值，然后开始执行拥塞避免算法（“加法增大”），使拥塞窗口缓慢地线性增大
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\从连续收到三个重复的确认转入拥塞避免.png" alt="从连续收到三个重复的确认转入拥塞避免" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E4%BB%8E%E8%BF%9E%E7%BB%AD%E6%94%B6%E5%88%B0%E4%B8%89%E4%B8%AA%E9%87%8D%E5%A4%8D%E7%9A%84%E7%A1%AE%E8%AE%A4%E8%BD%AC%E5%85%A5%E6%8B%A5%E5%A1%9E%E9%81%BF%E5%85%8D.png" alt="从连续收到三个重复的确认转入拥塞避免" width="500" height="300" />
 
 #### 发送窗口的上限值
 
@@ -1661,7 +1661,7 @@ $$
 
 ##### TCP 的连接建立
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\TCP的连接建立.png" alt="TCP的连接建立" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/TCP%E7%9A%84%E8%BF%9E%E6%8E%A5%E5%BB%BA%E7%AB%8B.png" width="500" height="300" />
 
 ##### TCP的连接释放
 
@@ -1702,7 +1702,7 @@ $$
 
 #### 因特网的域名空间
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\因特网的域名空间.png" alt="因特网的域名空间" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E5%9F%9F%E5%90%8D%E7%A9%BA%E9%97%B4.png" alt="因特网的域名空间" width="500" height="300" />
 
 #### 域名服务器有以下四种类型
 
@@ -1725,7 +1725,7 @@ $$
 
 ##### 区的不同划分方法举例
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\区的不同划分方法举例.png" alt="区的不同划分方法举例" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E5%8C%BA%E7%9A%84%E4%B8%8D%E5%90%8C%E5%88%92%E5%88%86%E6%96%B9%E6%B3%95%E4%B8%BE%E4%BE%8B.png" alt="区的不同划分方法举例" width="500" height="300" />
 
 #### 提高域名服务器的可靠性
 
@@ -1785,7 +1785,7 @@ $$
   - 服务器端的控制进程在接收到 FTP 客户发送来的文件传输请求后就创建“数据传送进程”和“数据连接” ，用来连接客户端和服务器端的数据传送进程
 - 数据传送进程实际完成文件的传送，在传送完毕后关闭“数据传送连接”并结束运行
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\FTP使用的两个TCP连接.png" alt="FTP使用的两个TCP连接" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/FTP%E4%BD%BF%E7%94%A8%E7%9A%84%E4%B8%A4%E4%B8%AATCP%E8%BF%9E%E6%8E%A5.png" alt="FTP使用的两个TCP连接" width="500" height="300" />
 
 #### 两个不同的端口号
 
@@ -1811,7 +1811,7 @@ $$
   - 在本地系统运行 TELNET 客户进程，而在远地主机则运行 TELNET 服务器进程
 - 和 FTP 的情况相似，服务器中的主进程等待新的请求，并产生从属进程来处理每一个连接
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\TELNET使用网络虚拟终端NVT格式.png" alt="TELNET使用网络虚拟终端NVT格式" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/TELNET%E4%BD%BF%E7%94%A8%E7%BD%91%E7%BB%9C%E8%99%9A%E6%8B%9F%E7%BB%88%E7%AB%AFNVT%E6%A0%BC%E5%BC%8F.png" alt="TELNET使用网络虚拟终端NVT格式" width="500" height="300" />
 
 ### 6.4 万维网 WWW
 
@@ -1846,7 +1846,7 @@ $$
 - URL 相当于一个文件名在网络范围的扩展
   - 因此 URL 是与因特网相连的机器上的任何可访问对象的一个指针
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\URL的一般形式.png" alt="URL的一般形式" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/URL%E7%9A%84%E4%B8%80%E8%88%AC%E5%BD%A2%E5%BC%8F.png" alt="URL的一般形式" width="500" height="300" />
 
 - <主机> 是存放资源的主机在因特网中的域名
 - <端口> 有时可省略，HTTP 的默认端口号是 80
@@ -1856,7 +1856,7 @@ $$
 - 为了使超文本的链接能够高效率地完成， 需要用 HTTP 协议来传送一切必须的信息
 - 从层次的角度看，HTTP 是面向事务的 (transaction-oriented)应用层协议，它是万维网上能够可靠地交换文件（包括文本、 声音、图像等各种多媒体文件）的重要基础
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\万维网的工作过程.png" alt="万维网的工作过程" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E4%B8%87%E7%BB%B4%E7%BD%91%E7%9A%84%E5%B7%A5%E4%BD%9C%E8%BF%87%E7%A8%8B.png" alt="万维网的工作过程" width="500" height="300" />
 
 ##### 用户点击鼠标后所发生的事件
 
@@ -1897,7 +1897,7 @@ $$
 - 万维网高速缓存把最近的一些请求和响应暂存在本地磁盘中
 - 当与暂时存放的请求相同的新请求到达时，万维网高速缓存就把暂存的响应发送出去，而不需要按 URL 的地址再去因特网访问该资源
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\使用高速缓存的情况.png" alt="使用高速缓存的情况" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E4%BD%BF%E7%94%A8%E9%AB%98%E9%80%9F%E7%BC%93%E5%AD%98%E7%9A%84%E6%83%85%E5%86%B5.png" alt="使用高速缓存的情况" width="500" height="300" />
 
 ##### HTTP 的报文结构
 
@@ -1909,7 +1909,7 @@ HTTP 有两类报文：
 
 ##### 请求报文
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\HTTP的报文结构（请求报文）.png" alt="HTTP的报文结构（请求报文）" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/HTTP%E7%9A%84%E6%8A%A5%E6%96%87%E7%BB%93%E6%9E%84%EF%BC%88%E8%AF%B7%E6%B1%82%E6%8A%A5%E6%96%87%EF%BC%89.png" alt="HTTP的报文结构（请求报文）" width="500" height="300" />
 
 - 报文由三个部分组成，即开始行、首部行和实体主体
   - 在请求报文中，开始行就是请求行
@@ -1929,7 +1929,7 @@ HTTP 有两类报文：
 
 ##### 响应报文
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\HTTP的报文结构（响应报文）.png" alt="HTTP的报文结构（响应报文）" width="500" height="300" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/HTTP%E7%9A%84%E6%8A%A5%E6%96%87%E7%BB%93%E6%9E%84%EF%BC%88%E5%93%8D%E5%BA%94%E6%8A%A5%E6%96%87%EF%BC%89.png" width="500" height="300" />
 
 - 响应报文的开始行是状态行
   - 状态行包括三项内容，即 HTTP 的版本，状态码， 以及解释状态码的简单短语
