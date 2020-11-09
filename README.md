@@ -171,7 +171,7 @@ $$
 - 数据链路层（Data Link）
 - 物理层（Physical）
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\主机1向主机2发送数据.png" alt="主机1向主机2发送数据" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E4%B8%BB%E6%9C%BA1%E5%90%91%E4%B8%BB%E6%9C%BA2%E5%8F%91%E9%80%81%E6%95%B0%E6%8D%AE.png" alt="主机1向主机2发送数据" width="500" height="300" />
 
 ## 第 2 章 物理层
 
@@ -188,7 +188,7 @@ $$
 
 #### 数据通信系统的模型
 
-<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E6%95%B0%E6%8D%AE%E9%80%9A%E4%BF%A1%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A8%A1%E5%9E%8B.png" alt="数据通信系统的模型" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E6%95%B0%E6%8D%AE%E9%80%9A%E4%BF%A1%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A8%A1%E5%9E%8B.png" alt="数据通信系统的模型" width="500" height="300" />
 
 #### 术语
 
@@ -360,7 +360,7 @@ $$
 
 #### PPP 协议的帧格式
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\PPP协议的帧格式.png" alt="PPP协议的帧格式" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/PPP%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%B8%A7%E6%A0%BC%E5%BC%8F.png" alt="PPP协议的帧格式" width="500" height="300" />
 
 #### 透明传输问题
 
@@ -405,7 +405,7 @@ $$
 - 在计算机的操作系统安装设备驱动程序
 - 实现以太网协议
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\计算机通过适配器和局域网进行通信.png" alt="计算机通过适配器和局域网进行通信" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%80%9A%E8%BF%87%E9%80%82%E9%85%8D%E5%99%A8%E5%92%8C%E5%B1%80%E5%9F%9F%E7%BD%91%E8%BF%9B%E8%A1%8C%E9%80%9A%E4%BF%A1.png" alt="计算机通过适配器和局域网进行通信" width="500" height="300" />
 
 #### CSMA/CD 协议（总线网）
 
@@ -502,7 +502,7 @@ $$
   - （最常用）DIX Ethernet V2 标准
   - IEEE 的 802.3 标准
 
-<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E4%BB%A5%E5%A4%AA%E7%BD%91%E7%9A%84MAC%E5%B8%A7%E6%A0%BC%E5%BC%8F.png" alt="以太网的MAC帧格式" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E4%BB%A5%E5%A4%AA%E7%BD%91%E7%9A%84MAC%E5%B8%A7%E6%A0%BC%E5%BC%8F.png" alt="以太网的MAC帧格式" width="500" height="300" />
 
 ##### 48 位的 MAC 地址
 
@@ -557,7 +557,7 @@ $$
       - 虚拟局域网 VLAN 是由一些局域网网段构成的与物理位置无关的逻辑组
       - 虚拟局域网其实只是局域网给用户提供的一种服务，而并不是一种新型局域网
 
-<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E8%99%9A%E6%8B%9F%E5%B1%80%E5%9F%9F%E7%BD%91%E4%BD%BF%E7%94%A8%E7%9A%84%E4%BB%A5%E5%A4%AA%E7%BD%91%E5%B8%A7%E6%A0%BC%E5%BC%8F.png" alt="虚拟局域网使用的以太网帧格式" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E8%99%9A%E6%8B%9F%E5%B1%80%E5%9F%9F%E7%BD%91%E4%BD%BF%E7%94%A8%E7%9A%84%E4%BB%A5%E5%A4%AA%E7%BD%91%E5%B8%A7%E6%A0%BC%E5%BC%8F.png" alt="虚拟局域网使用的以太网帧格式" width="500" height="300" />
 
 #### 网桥和集线器（或转发器）不同
 
@@ -643,7 +643,7 @@ $$
 
 #### 虚电路服务与数据报服务的对比
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\虚电路服务与数据报服务的对比.png" alt="虚电路服务与数据报服务的对比" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E8%99%9A%E7%94%B5%E8%B7%AF%E6%9C%8D%E5%8A%A1%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%8A%A5%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AF%B9%E6%AF%94.png" alt="虚电路服务与数据报服务的对比" width="500" height="300" />
 
 ### 4.2 网际协议 IP
 
@@ -654,7 +654,7 @@ $$
   - 网际控制报文协议 ICMP （Internet Control Message Protocol） 
   - 网际组管理协议 IGMP （Internet Group Management Protocol）
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\网际层的IP协议及配套协议.png" alt="网际层的IP协议及配套协议" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E7%BD%91%E9%99%85%E5%B1%82%E7%9A%84IP%E5%8D%8F%E8%AE%AE%E5%8F%8A%E9%85%8D%E5%A5%97%E5%8D%8F%E8%AE%AE.png" alt="网际层的IP协议及配套协议" width="500" height="300" />
 
 #### 虚拟互连网络
 
@@ -680,9 +680,9 @@ $$
   - 其中一个字段是网络号 net-id，它标志主机（或路由器）所连接到的网络
   - 而另一个字段则是主机号 host-id，它标志该主机 （或路由器）
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\IP地址中的网络号字段和主机号字段.png" alt="IP地址中的网络号字段和主机号字段" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/IP%E5%9C%B0%E5%9D%80%E4%B8%AD%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8F%B7%E5%AD%97%E6%AE%B5%E5%92%8C%E4%B8%BB%E6%9C%BA%E5%8F%B7%E5%AD%97%E6%AE%B5.png" alt="IP地址中的网络号字段和主机号字段" width="500" height="300" />
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\常用的三种类别的IP地址.png" alt="常用的三种类别的IP地址" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E5%B8%B8%E7%94%A8%E7%9A%84%E4%B8%89%E7%A7%8D%E7%B1%BB%E5%88%AB%E7%9A%84IP%E5%9C%B0%E5%9D%80.png" alt="常用的三种类别的IP地址" width="500" height="300" />
 
 ##### IP地址的一些重要特点
 
@@ -701,11 +701,11 @@ $$
 - IP层抽象的互联网屏蔽了下层很复杂的细节 
   - 在抽象的网络层上讨论问题，就能够使用 统一的、抽象的 IP 地址研究主机和主机或主机和路由器之间的通信
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\IP地址与硬件地址.png" alt="IP地址与硬件地址" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/IP%E5%9C%B0%E5%9D%80%E4%B8%8E%E7%A1%AC%E4%BB%B6%E5%9C%B0%E5%9D%80.png" alt="IP地址与硬件地址" width="500" height="300" />
 
 #### 地址解析协议 ARP 和 逆地址解析协议 RARP 
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\地址解析协议 ARP 和 逆地址解析协议 RARP.png" alt="地址解析协议 ARP 和 逆地址解析协议 RARP" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E5%9C%B0%E5%9D%80%E8%A7%A3%E6%9E%90%E5%8D%8F%E8%AE%AE%20ARP%20%E5%92%8C%20%E9%80%86%E5%9C%B0%E5%9D%80%E8%A7%A3%E6%9E%90%E5%8D%8F%E8%AE%AE%20RARP.png" alt="地址解析协议 ARP 和 逆地址解析协议 RARP" width="500" height="300" />
 
 #### 地址解析协议 ARP
 
@@ -736,7 +736,7 @@ $$
 
 #### IP 数据报的格式
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\IP 数据报的格式.png" alt="IP 数据报的格式" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/IP%20%E6%95%B0%E6%8D%AE%E6%8A%A5%E7%9A%84%E6%A0%BC%E5%BC%8F.png" alt="IP 数据报的格式" width="500" height="300" />
 
 - 版本——占 4 位，指 IP 协议的版本目前的 IP 协议版本号为 4 （即 IPv4）
 - 首部长度——占 4 位，可表示的最大数值 是 15 个单位（一个单位为 4 字节） 因此 IP 的首部长度的最大值是 60 字节
@@ -808,9 +808,9 @@ $$
 - 子网掩码（subnet mask）
 - （IP地址） AND （子网掩码） = 网络地址
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\IP地址的各字段和子网掩码.png" alt="IP地址的各字段和子网掩码" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/IP%E5%9C%B0%E5%9D%80%E7%9A%84%E5%90%84%E5%AD%97%E6%AE%B5%E5%92%8C%E5%AD%90%E7%BD%91%E6%8E%A9%E7%A0%81.png" alt="IP地址的各字段和子网掩码" width="500" height="300" />
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\默认子网掩码.png" alt="默认子网掩码" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E9%BB%98%E8%AE%A4%E5%AD%90%E7%BD%91%E6%8E%A9%E7%A0%81.png" alt="默认子网掩码" width="500" height="300" />
 
 ##### 子网掩码是一个重要属性
 
@@ -819,7 +819,7 @@ $$
 - 路由器的路由表中的每一个项目，除了要给出目的网络地址外，还必须同时给出该网络的子网掩码
 - 若一个路由器连接在两个子网上就拥有两个网络地址和两个子网掩码
 
-#### 无分类编址 CIDR（[分IP时用CIDR更加方便]（https://www.zhihu.com/question/364427671/answer/960814680））
+#### 无分类编址 CIDR（[分IP时用CIDR更加方便](https://www.zhihu.com/question/364427671/answer/960814680)）
 
 - CIDR 消除了传统的 A 类、B 类和 C 类地址以及划分子网的概念，因而可以更加有效地分配 IPv4 的地址空间
 - CIDR 使用各种长度的“网络前缀”（network-prefix）来代替分类地址中的网络号和子网号
@@ -880,9 +880,9 @@ $$
     - 回送请求和回答报文 
     - 时间戳请求和回答报文
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\ICMP报文的格式.png" alt="ICMP报文的格式" style="zoom:30%;" />]
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/ICMP%E6%8A%A5%E6%96%87%E7%9A%84%E6%A0%BC%E5%BC%8F.png" alt="ICMP报文的格式" width="500" height="300" />]
 
-#### PING （Packet InterNet Groper） 
+#### PING（Packet InterNet Groper） 
 
 - PING 用来测试两个主机之间的连通性
 - PING 使用了 ICMP 回送请求与回送回答报文
@@ -893,7 +893,7 @@ $$
 - 静态路由选择策略——即非自适应路由选择， 其特点是简单和开销较小，但不能及时适应网络状态的变化
 - 动态路由选择策略——即自适应路由选择， 其特点是能较好地适应网络状态的变化，但实现起来较为复杂，开销也比较大
 
-#### 自治系统 AS （Autonomous System）
+#### 自治系统 AS（Autonomous System）
 
 - 自治系统 AS 的定义：在单一的技术管理下的一组路由器，而这些路由器使用一种 AS 内部的路由选择协议和共同的度量以确定分组在该 AS 内的路由，同时还使用一种 AS 之间的路由选择协议用以确定分组在 AS之间的路由
 - 现在对自治系统 AS 的定义是强调下面的事实： 尽管一个 AS 使用了多种内部路由选择协议和度量，但重要的是一个 AS 对其他 AS 表现出的是一个单一的和一致的路由选择策略
@@ -908,7 +908,7 @@ $$
   - 这样的协议就是外部网关协议 EGP
   - 在外部网关协议中目前使用最多的是 BGP-4。
 
-#### 内部网关协议 RIP （Routing Information Protocol）
+#### 内部网关协议 RIP（Routing Information Protocol）
 
 - 路由信息协议 RIP 是内部网关协议 IGP 中最先得到广泛使用的协议
 - RIP 是一种分布式的基于距离向量的路由选择协议
@@ -917,7 +917,7 @@ $$
 - 交换的信息是当前本路由器所知道的全部信息，即自己的路由表
 - 按固定的时间间隔交换路由信息，例如， 每隔 30 秒
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\RIP2协议的报文格式.png" alt="RIP2协议的报文格式" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/RIP2%E5%8D%8F%E8%AE%AE%E7%9A%84%E6%8A%A5%E6%96%87%E6%A0%BC%E5%BC%8F.png" alt="RIP2协议的报文格式" width="500" height="300" />
 
 ##### “距离”的定义
 
@@ -955,7 +955,7 @@ $$
 - OSPF 只是一个协议的名字，它并不表示其他的路由选择协议不是“最短路径优先”
 - 是分布式的链路状态协议
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\OSPF分组.png" alt="OSPF分组" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/OSPF%E5%88%86%E7%BB%84.png" alt="OSPF分组" width="500" height="300" />
 
 ##### 三个要点
 
@@ -986,7 +986,7 @@ $$
 - 类型4，链路状态更新（Link State Update）分组， 用洪泛法对全网更新链路状态
 - 类型5，链路状态确认（Link State Acknowledgment） 分组。
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\OSPF的基本操作.png" alt="OSPF的基本操作" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/OSPF%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.png" alt="OSPF的基本操作" width="500" height="300" />
 
 ##### OSPF 的其他特点
 
@@ -1000,7 +1000,7 @@ $$
 - BGP 是不同自治系统的路由器之间交换路由信息的协议
 - 边界网关协议 BGP 只能是力求寻找一条能够到达目的网络且比较好的路由（不能兜圈子），而并非要寻找一条最佳路由
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\BGP报文具有通用的首部.png" alt="BGP报文具有通用的首部" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/BGP%E6%8A%A5%E6%96%87%E5%85%B7%E6%9C%89%E9%80%9A%E7%94%A8%E7%9A%84%E9%A6%96%E9%83%A8.png" alt="BGP报文具有通用的首部" width="500" height="300" />
 
 ##### BGP 发言人 （BGP speaker）
 
@@ -1028,7 +1028,7 @@ $$
 
 #### 路由器在网际互连中的作用
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\典型的路由器的结构.png" alt="典型的路由器的结构" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E5%85%B8%E5%9E%8B%E7%9A%84%E8%B7%AF%E7%94%B1%E5%99%A8%E7%9A%84%E7%BB%93%E6%9E%84.png" alt="典型的路由器的结构" width="500" height="300" />
 
 ##### “转发”和“路由选择”的 区别
 
@@ -1042,7 +1042,7 @@ $$
 - 数据链路层剥去帧首部和尾部后，将分组送到网络层的队列中排队等待处理
   - 这会产生一定的时延
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\输入端口对线路上收到的分组的处理.png" alt="输入端口对线路上收到的分组的处理" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E8%BE%93%E5%85%A5%E7%AB%AF%E5%8F%A3%E5%AF%B9%E7%BA%BF%E8%B7%AF%E4%B8%8A%E6%94%B6%E5%88%B0%E7%9A%84%E5%88%86%E7%BB%84%E7%9A%84%E5%A4%84%E7%90%86.png" alt="输入端口对线路上收到的分组的处理" width="500" height="300" />
 
 ##### 分组丢弃
 
@@ -1147,7 +1147,7 @@ $$
   - “逻辑通信”的意思是：运输层之间的通信好像是沿水平方向传送数据
   - 但事实上这两个运输层之间并没有一条水平方向的物理连接
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\运输层协议和网络层协议的主要区别.png" alt="运输层协议和网络层协议的主要区别" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E8%BF%90%E8%BE%93%E5%B1%82%E5%8D%8F%E8%AE%AE%E5%92%8C%E7%BD%91%E7%BB%9C%E5%B1%82%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%B8%BB%E8%A6%81%E5%8C%BA%E5%88%AB.png" alt="运输层协议和网络层协议的主要区别" width="500" height="300" />
 
 #### 两种不同的运输协议
 
@@ -1227,11 +1227,11 @@ TCP/IP 的运输层有两个不同的协议：
 - 接收方 UDP 对 IP 层交上来的 UDP 用户数据报，在去除首部后就原封不动地交付上层的应用进程，一次交付一个完整的报文
 - 应用程序必须选择合适大小的报文
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\UDP是面向报文的.png" alt="UDP是面向报文的" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/UDP%E6%98%AF%E9%9D%A2%E5%90%91%E6%8A%A5%E6%96%87%E7%9A%84.png" alt="UDP是面向报文的" width="500" height="300" />
 
 #### UDP 的首部格式
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\UDP的首部格式.png" alt="UDP的首部格式" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/UDP%E7%9A%84%E9%A6%96%E9%83%A8%E6%A0%BC%E5%BC%8F.png" alt="UDP的首部格式" width="500" height="300" />
 
 ### 5.3 传输控制协议 TCP 概述
 
@@ -1257,15 +1257,15 @@ TCP/IP 的运输层有两个不同的协议：
   - TCP 连接的端点叫做套接字(socket)或插口
 - 端口号拼接到(contatenated with) IP 地址即构成了套接字
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\套接字.png" alt="套接字" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E5%A5%97%E6%8E%A5%E5%AD%97.png" alt="套接字" width="500" height="300" />
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\TCP连接.png" alt="TCP连接" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/TCP%E8%BF%9E%E6%8E%A5.png" alt="TCP连接" width="500" height="300" />
 
 ### 5.4 可靠传输的工作原理
 
 #### 停止等待协议
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\停止等待协议.png" alt="停止等待协议" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E5%81%9C%E6%AD%A2%E7%AD%89%E5%BE%85%E5%8D%8F%E8%AE%AE.png" alt="停止等待协议" width="500" height="300" />
 
 ##### 请注意
 
@@ -1275,7 +1275,7 @@ TCP/IP 的运输层有两个不同的协议：
 
 ##### 确认丢失和确认迟到
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\确认丢失和确认迟到.png" alt="确认丢失和确认迟到" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E7%A1%AE%E8%AE%A4%E4%B8%A2%E5%A4%B1%E5%92%8C%E7%A1%AE%E8%AE%A4%E8%BF%9F%E5%88%B0.png" alt="确认丢失和确认迟到" width="500" height="300" />
 
 #### 可靠通信的实现
 
@@ -1294,7 +1294,7 @@ $$
 
 
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\信道利用率.png" alt="信道利用率" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E4%BF%A1%E9%81%93%E5%88%A9%E7%94%A8%E7%8E%87.png" alt="信道利用率" width="500" height="300" />
 
 #### 流水线传输
 
@@ -1332,7 +1332,7 @@ $$
 
 ### 5.5 TCP 报文段的首部格式
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\TCP报文段的首部格式.png" alt="TCP报文段的首部格式" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\TCP报文段的首部格式.png" alt="TCP报文段的首部格式" width="500" height="300" />
 
 - 源端口和目的端口字段——各占 2 字节
   - 端口是运输层与应用层的服务接口
@@ -1399,9 +1399,9 @@ $$
 
 #### 发送缓存与接收缓存的作用
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\发送缓存.png" alt="发送缓存" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\发送缓存.png" alt="发送缓存" width="500" height="300" />
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\接收缓存.png" alt="接收缓存" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\接收缓存.png" alt="接收缓存" width="500" height="300" />
 
 - 发送缓存用来暂时存放： 
   - 发送应用程序传送给发送方 TCP 准备发送的数据；
@@ -1501,7 +1501,7 @@ $$
 - 流量控制(flow control)就是让发送方的发送速率不要太快，既要让接收方来得及接收，也不要使网络发生拥塞
 - 利用滑动窗口机制可以很方便地在 TCP 连接上实现流量控制
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\流量控制举例.png" alt="流量控制举例" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\流量控制举例.png" alt="流量控制举例" width="500" height="300" />
 
 #### 持续计时器 (persistence timer)
 
@@ -1583,7 +1583,7 @@ $$
 
 ##### 慢开始和拥塞避免算法的实现举例
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\慢开始和拥塞避免算法的实现举例.png" alt="慢开始和拥塞避免算法的实现举例" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\慢开始和拥塞避免算法的实现举例.png" alt="慢开始和拥塞避免算法的实现举例" width="500" height="300" />
 
 - 当 TCP 连接进行初始化时，将拥塞窗口置为 1
   - 图中的窗口单位不使用字节而使用报文段
@@ -1629,7 +1629,7 @@ $$
   - 但接下去不执行慢开始算法
 - 由于发送方现在认为网络很可能没有发生拥塞， 因此现在不执行慢开始算法，即拥塞窗口 cwnd 现在不设置为 1，而是设置为慢开始门 限 ssthresh 减半后的数值，然后开始执行拥塞避免算法（“加法增大”），使拥塞窗口缓慢地线性增大
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\从连续收到三个重复的确认转入拥塞避免.png" alt="从连续收到三个重复的确认转入拥塞避免" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\从连续收到三个重复的确认转入拥塞避免.png" alt="从连续收到三个重复的确认转入拥塞避免" width="500" height="300" />
 
 #### 发送窗口的上限值
 
@@ -1661,11 +1661,11 @@ $$
 
 ##### TCP 的连接建立
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\TCP的连接建立.png" alt="TCP的连接建立" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\TCP的连接建立.png" alt="TCP的连接建立" width="500" height="300" />
 
 ##### TCP的连接释放
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\TCP的连接释放.png" alt="TCP的连接释放" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\TCP的连接释放.png" alt="TCP的连接释放" width="500" height="300" />
 
 - A 必须等待 2MSL 的时间
   - 第一，为了保证 A 发送的最后一个 ACK 报文段能够到达 B
@@ -1702,7 +1702,7 @@ $$
 
 #### 因特网的域名空间
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\因特网的域名空间.png" alt="因特网的域名空间" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\因特网的域名空间.png" alt="因特网的域名空间" width="500" height="300" />
 
 #### 域名服务器有以下四种类型
 
@@ -1725,7 +1725,7 @@ $$
 
 ##### 区的不同划分方法举例
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\区的不同划分方法举例.png" alt="区的不同划分方法举例" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\区的不同划分方法举例.png" alt="区的不同划分方法举例" width="500" height="300" />
 
 #### 提高域名服务器的可靠性
 
@@ -1785,7 +1785,7 @@ $$
   - 服务器端的控制进程在接收到 FTP 客户发送来的文件传输请求后就创建“数据传送进程”和“数据连接” ，用来连接客户端和服务器端的数据传送进程
 - 数据传送进程实际完成文件的传送，在传送完毕后关闭“数据传送连接”并结束运行
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\FTP使用的两个TCP连接.png" alt="FTP使用的两个TCP连接" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\FTP使用的两个TCP连接.png" alt="FTP使用的两个TCP连接" width="500" height="300" />
 
 #### 两个不同的端口号
 
@@ -1811,7 +1811,7 @@ $$
   - 在本地系统运行 TELNET 客户进程，而在远地主机则运行 TELNET 服务器进程
 - 和 FTP 的情况相似，服务器中的主进程等待新的请求，并产生从属进程来处理每一个连接
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\TELNET使用网络虚拟终端NVT格式.png" alt="TELNET使用网络虚拟终端NVT格式" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\TELNET使用网络虚拟终端NVT格式.png" alt="TELNET使用网络虚拟终端NVT格式" width="500" height="300" />
 
 ### 6.4 万维网 WWW
 
@@ -1846,7 +1846,7 @@ $$
 - URL 相当于一个文件名在网络范围的扩展
   - 因此 URL 是与因特网相连的机器上的任何可访问对象的一个指针
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\URL的一般形式.png" alt="URL的一般形式" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\URL的一般形式.png" alt="URL的一般形式" width="500" height="300" />
 
 - <主机> 是存放资源的主机在因特网中的域名
 - <端口> 有时可省略，HTTP 的默认端口号是 80
@@ -1856,7 +1856,7 @@ $$
 - 为了使超文本的链接能够高效率地完成， 需要用 HTTP 协议来传送一切必须的信息
 - 从层次的角度看，HTTP 是面向事务的 (transaction-oriented)应用层协议，它是万维网上能够可靠地交换文件（包括文本、 声音、图像等各种多媒体文件）的重要基础
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\万维网的工作过程.png" alt="万维网的工作过程" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\万维网的工作过程.png" alt="万维网的工作过程" width="500" height="300" />
 
 ##### 用户点击鼠标后所发生的事件
 
@@ -1897,7 +1897,7 @@ $$
 - 万维网高速缓存把最近的一些请求和响应暂存在本地磁盘中
 - 当与暂时存放的请求相同的新请求到达时，万维网高速缓存就把暂存的响应发送出去，而不需要按 URL 的地址再去因特网访问该资源
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\使用高速缓存的情况.png" alt="使用高速缓存的情况" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\使用高速缓存的情况.png" alt="使用高速缓存的情况" width="500" height="300" />
 
 ##### HTTP 的报文结构
 
@@ -1909,7 +1909,7 @@ HTTP 有两类报文：
 
 ##### 请求报文
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\HTTP的报文结构（请求报文）.png" alt="HTTP的报文结构（请求报文）" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\HTTP的报文结构（请求报文）.png" alt="HTTP的报文结构（请求报文）" width="500" height="300" />
 
 - 报文由三个部分组成，即开始行、首部行和实体主体
   - 在请求报文中，开始行就是请求行
@@ -1929,7 +1929,7 @@ HTTP 有两类报文：
 
 ##### 响应报文
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\HTTP的报文结构（响应报文）.png" alt="HTTP的报文结构（响应报文）" style="zoom:30%;" />
+<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\HTTP的报文结构（响应报文）.png" alt="HTTP的报文结构（响应报文）" width="500" height="300" />
 
 - 响应报文的开始行是状态行
   - 状态行包括三项内容，即 HTTP 的版本，状态码， 以及解释状态码的简单短语
