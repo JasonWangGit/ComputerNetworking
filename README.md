@@ -1991,7 +1991,7 @@ HTTP 有两类报文：
 - 读取邮件的协议：POP3 和 IMAP 
 - MIME 在其邮件首部中说明了邮件的数据类型(如文本、声音、图像、视像等)， 使用 MIME 可在邮件中同时传送多种类型的数据
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\电子邮件的最主要的组成构件.png" alt="电子邮件的最主要的组成构件" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E7%94%B5%E5%AD%90%E9%82%AE%E4%BB%B6%E7%9A%84%E6%9C%80%E4%B8%BB%E8%A6%81%E7%9A%84%E7%BB%84%E6%88%90%E6%9E%84%E4%BB%B6.png" alt="电子邮件的最主要的组成构件" width="500" height="300" />
 
 #### 用户代理 UA (User Agent)
 
@@ -2039,7 +2039,7 @@ HTTP 有两类报文：
 
 #### 基于万维网的电子邮件
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\基于万维网的电子邮件.png" alt="基于万维网的电子邮件" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E5%9F%BA%E4%BA%8E%E4%B8%87%E7%BB%B4%E7%BD%91%E7%9A%84%E7%94%B5%E5%AD%90%E9%82%AE%E4%BB%B6.png" alt="基于万维网的电子邮件" width="500" height="300" />
 
 #### 通用因特网邮件扩充 MIME
 
@@ -2053,7 +2053,7 @@ SMTP 有以下缺点：
 
 #### MIME 和 SMTP 的关系
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\MIME和SMTP 的关系.png" alt="MIME和SMTP 的关系" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/MIME%E5%92%8CSMTP%20%E7%9A%84%E5%85%B3%E7%B3%BB.png" alt="MIME和SMTP 的关系" width="500" height="300" />
 
 
 
@@ -2075,7 +2075,7 @@ SMTP 有以下缺点：
 - 当 DHCP 中继代理收到主机发送的发现报文后，就以单播方式向 DHCP 服务器转发此报文，并等待其回答
   - 收到 DHCP 服务器回答的提供报文后，DHCP 中继代理再将此提供报文发回给主机
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\DHCP中继代理以单播方式转发发现报文.png" alt="DHCP中继代理以单播方式转发发现报文" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/DHCP%E4%B8%AD%E7%BB%A7%E4%BB%A3%E7%90%86%E4%BB%A5%E5%8D%95%E6%92%AD%E6%96%B9%E5%BC%8F%E8%BD%AC%E5%8F%91%E5%8F%91%E7%8E%B0%E6%8A%A5%E6%96%87.png" alt="DHCP中继代理以单播方式转发发现报文" width="500" height="300" />
 
 #### 租用期(lease period) 
 
@@ -2086,7 +2086,7 @@ SMTP 有以下缺点：
 
 ### 6.7 简单网络管理协议 SNMP
 
-<img src="D:\Program Files\sts-bundle\source\ComputerNetworking\image\网络管理的一般模型.png" alt="网络管理的一般模型" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/JasonWangGit/ComputerNetworking/master/image/%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%80%E8%88%AC%E6%A8%A1%E5%9E%8B.png" alt="网络管理的一般模型" width="500" height="300" />
 
 - 管理站也常称为网络运行中心 NOC (Network Operations Center)，是网络管理系统的核心
 - 管理程序在运行时就成为管理进程
