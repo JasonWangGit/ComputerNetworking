@@ -2,46 +2,78 @@
 
 ## 分层重点协议整理
 
-- 分层的意义：解耦
+#### 分层：解耦
 
-- **应用层**（应用层 ：能够产生网络流量且能和用户交互的应用程序 + 表示层：加密、压缩 + 会话层：服务器和客户端建立的会话）.
-  - HTTP
-  - FTP
-  - DNS
-  - SMTP
-  - PoP3
+##### 七层
 
-- **运输层**（七层中也称传输层）：可靠传输、不可靠传输
-  - TCP
-  - UDP
+- 应用层：能够产生网络流量且能和用户交互的应用程序
+- 表示层：加密、压缩
+- 会话层：服务器和客户端建立的会话
+- 传输层：可靠传输、不可靠传输
+- 网络层：IP地址编址、选择最佳路径
+- 数据链路层：封装数据、添加物理层地址（MAC）
+- 物理层：电压、接口标准
 
-- **网络层**（四层中也称网络层）：IP地址编址、选择最佳路径
-  - 网际协议 **IP（Internet Protocol）** ：封装在IP数据报首部
-    - 地址解析协议 **ARP （Address Resolution Protocol）** ：封装在IP数据报
-      - IP地址 → 物理地址
-    - 逆地址解析协议 **RARP （Reverse Address Resolution Protocol）** ：封装在IP数据报
-      - 物理地址 → IP地址
-    - 网际控制报文协议 **ICMP （Internet Control Message Protocol）**：封装在IP数据报
-      - 为了提高 IP 数据报交付成功的机会
-    - 网际组管理协议 **IGMP （Internet Group Management Protocol）**：封装在IP数据报
-      - 为了使路由器知道多播组成员的信息
-  - 内部网关协议 **RIP （Routing Information Protocol）**：封装在UDP数据报
-    - RIP 协议要求网络中的每一个路由器都要维护从它自己到其他每一个目的网络的距离记录
-  - 内部网关协议 **OSPF （Open Shortest Path First）**：封装在IP数据报
-    - 向本自治系统中所有路由器发送信息，这里使用的方法是洪泛法
-  - 外部网关协议 **BGP（Border Gateway Protocol）**：封装在TCP数据
-    - BGP 是不同自治系统的路由器之间交换路由信息的协议
-- **数据链路层**（四层中与物理层也合称网络接口层）：封装数据、添加物理层地址（MAC）
-  - 封装成帧（首部、尾部）、透明传输（“转义”思想）、差错控制（循环冗余检验 CRC）
-  - 点对点协议 **PPP （Point-to-Point Protocol）**
-    - 一个将 IP 数据报封装到串行链路的方法
-    - 链路控制协议 **LCP （Link Control Protocol）**
-    - 网络控制协议 **NCP （Network Control Protocol）**
-  - 载波监听多点接入/碰撞检测 **CSMA/CD（Carrier Sense Multiple Access with Collision Detection）**
-    - 解决总线网问题
-- **物理层**（四层中与数据链路层也合称网络接口层）：电压、接口标准
-  - 机械特性（形状、尺寸）、电气特性（电压范围）、功能特性（电平意义）、过程特性（事件顺序）
-  - 信号（基带、带通）、通信（单工、半双工、全双工）、信道（对传输媒体的抽象）、传输媒体（双绞线、同轴电缆、光缆、无线传输）、复用技术（频分、波分、时分、统计时分、码分）
+##### 四层
+
+- 应用层（应用层+表示层+会话层）
+- 运输层
+- 网际层
+- 网络接口层（数据链路层+物理层）
+
+##### 五层
+
+- 应用层（应用层+表示层+会话层）
+- 运输层
+- 网络层
+- 数据链路层
+- 物理层
+
+#### 物理层
+
+- 机械特性（形状、尺寸）、电气特性（电压范围）、功能特性（电平意义）、过程特性（事件顺序）
+- 信号（基带、带通）、通信（单工、半双工、全双工）、信道（对传输媒体的抽象）、传输媒体（双绞线、同轴电缆、光缆、无线传输）、复用技术（频分、波分、时分、统计时分、码分）
+
+#### 数据链路层
+
+- 封装成帧（首部、尾部）、透明传输（“转义”思想）、差错控制（循环冗余检验 CRC）
+- 点对点协议 **PPP （Point-to-Point Protocol）**
+  - 一个将 IP 数据报封装到串行链路的方法
+  - 链路控制协议 **LCP （Link Control Protocol）**
+  - 网络控制协议 **NCP （Network Control Protocol）**
+- 载波监听多点接入/碰撞检测 **CSMA/CD（Carrier Sense Multiple Access with Collision Detection）**
+  - 解决总线网问题
+
+#### 网络层
+
+- 网际协议 **IP（Internet Protocol）** ：封装在IP数据报首部
+  - 地址解析协议 **ARP （Address Resolution Protocol）** ：封装在IP数据报
+    - IP地址 → 物理地址
+  - 逆地址解析协议 **RARP （Reverse Address Resolution Protocol）** ：封装在IP数据报
+    - 物理地址 → IP地址
+  - 网际控制报文协议 **ICMP （Internet Control Message Protocol）**：封装在IP数据报
+    - 为了提高 IP 数据报交付成功的机会
+  - 网际组管理协议 **IGMP （Internet Group Management Protocol）**：封装在IP数据报
+    - 为了使路由器知道多播组成员的信息
+- 内部网关协议 **RIP （Routing Information Protocol）**：封装在UDP数据报
+  - RIP 协议要求网络中的每一个路由器都要维护从它自己到其他每一个目的网络的距离记录
+- 内部网关协议 **OSPF （Open Shortest Path First）**：封装在IP数据报
+  - 向本自治系统中所有路由器发送信息，这里使用的方法是洪泛法
+- 外部网关协议 **BGP（Border Gateway Protocol）**：封装在TCP数据
+  - BGP 是不同自治系统的路由器之间交换路由信息的协议
+
+#### 运输层
+
+- TCP
+- UDP
+
+#### 应用层
+
+- HTTP
+- FTP
+- DNS
+- SMTP
+- PoP3
 
 ## 第 1 章 概述
 
@@ -941,7 +973,7 @@ $$
 
 ##### RIP 协议的优缺点
 
-- RIP 存在的一个问题是当网络出现故障时，要 经过比较长的时间才能将此信息传送到所有的路由器
+- RIP 存在的一个问题是当网络出现故障时，要经过比较长的时间才能将此信息传送到所有的路由器
 - RIP 协议最大的优点就是实现简单，开销较小
 - RIP 限制了网络的规模，它能使用的最大距离为 15（16 表示不可达）
 - 路由器之间交换的路由信息是路由器中的完整路由表，因而随着网络规模的扩大，开销也就增加
